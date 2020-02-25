@@ -41,4 +41,19 @@ http://srigorti.pythonanywhere.com/usersimilarity/1?limit=20 gives the first 20 
 
 
 
+**Questions**
+
+**Similarity Calculation**: Conducted some study on various similarity measures used for collaborative filtering and planned to use Consine Similarity according to "Similarity measures for collaborative filtering recommender systems"
+
+**How to make the application scalable?** We can improve the scalability by applying clustering analysis as preprocessing step before combining the engineered features. For example: Partitioning the data into various user segments (user profiles) specific to a target course. 
+
+**More Features?** More features could be collected from the users such as 
+•	Whether user wants to buy a course or not?
+•	Length of duration of a particular course, the user is watching
+•	Whether a user will recommend a course to a different user etc.,
+
+
+
+
+
 
