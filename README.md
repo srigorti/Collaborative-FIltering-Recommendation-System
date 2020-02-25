@@ -27,7 +27,17 @@ Python 3.7, Pandas, Scipy, Gensim.Word2Vec, sklearn
 **Tools Used**
 Python 3.7, Pandas
 
+**How to Run**
 
+Final pickle file of similarity matrix is wrapped in the API given below. However, to generate a pickle file on your own, downlad the Pluralsight_User_Similarity.py file and run it on a jupyter notebook. Obtained similarity matrix can be finally converted in pickle file using pickle.dump()
+
+Similarity scores of users is hosted on  http://SriGorti.pythonanywhere.com 
+
+To find similar users of a user_handle, invoke the below API with any a user_handle
+http://SriGorti.pythonanywhere.com/usersimilarity/<userhandle>
+
+Example:
+http://srigorti.pythonanywhere.com/usersimilarity/1?limit=20 gives the first 20 similar users of user handle 1. The limit can be adjusted to find any number of similar users. By default, limit is set to 10 users.
 
 
 
